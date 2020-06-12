@@ -1,0 +1,87 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #212F3D;
+    font-family: sans-serif;
+}
+
+#gameTableContainer {
+    position: relative;
+    height: 400px;
+    width: 90%;
+    border: 10px solid red;
+    background-color: aliceblue;
+    margin-left: 4%;
+    overflow: hidden;
+}
+
+#bird {
+    position: absolute;
+    background: url('../img/wingless_bird.png');
+    height: 42px;
+    width: 65px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 20%;
+    left: 15%;
+}
+
+.tunnel {
+    position: absolute;
+    height: 130px;
+    width: 50px;
+    background-color: red;
+    right: -50px;
+}
+
+#upperTunnel {
+    top: 0;
+}
+
+#lowerTunnel {
+    bottom: 0;
+}
+
+#title {
+    font-size: 35px;
+    text-align: center;
+}
+
+#scoreContainer {
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 79%;
+    font-size: 25px;
+    color: black;
+    padding-left: 39px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: aliceblue;
+    width: 10%;
+}
+
+#descriptionContainer {
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 5%;
+    font-size: 20px;
+    color: black;
+    padding: 30px;
+    background: aliceblue;
+    width: 66%;
+}
+
+#restartButton {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #2471A3;
+    color: white;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
